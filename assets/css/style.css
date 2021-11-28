@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(139, 133, 133, 0.425);
+}
+
+.headere{
+    display: flex;
+    justify-content:center;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    background-color: rgb(47, 141, 196);
+    height: 100px;
+    border: 3px black solid;
+    border-radius: 30px;
+    margin: 25px;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.icon{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.text{
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    margin: 25px;
+}
+
+
+.headere-box{
+    display: flex;
+    justify-content:center;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    background-color: rgb(47, 141, 196);
+    padding: 30px;
+    height: 100px;
+    border: 3px black solid;
+    border-radius: 30px;
+    margin: 25PX;
+    
+}
+.sergal{
+    display: flex;
+    justify-content:column;
+    margin: 20px;
+    padding: 0 20px 20px 0;
+    width: 330.5px;
+    height: 640px;
+}
+
+.link{
+    text-decoration: none;
+    height: 50px;
+    background-color: cornflowerblue;
+    border: 3px black solid;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:576px){
+    .sergal{
+        display: inline-block;
+        justify-content:column;
+        width:auto;
+        height: auto;
+    }
+    .sergal> img {
+        height: 500px;
+        width:300px ;
+    }
+    
+}
+
